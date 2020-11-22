@@ -1,0 +1,10 @@
+<h3>Update Task</h3>
+
+<form method="POST" action="">
+    <!-- send to / after submit -->
+    <!-- then process mo sa controller which is the views.py -->
+    {% csrf_token %}
+    <!-- <a href="{% url 'update_task' task.id %}">Update</a> -->
+    {{form}}
+    <input type="submit" name="Update Task">
+</form>

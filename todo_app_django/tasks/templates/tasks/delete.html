@@ -1,0 +1,9 @@
+<p>Are you sure you want to delete "{{itemToDelete}}"?</p>
+
+<a href="{% url 'index' %}">Cancel</a>
+
+<!-- # action blank dahil balik tayo index which is / -->
+<form action="" method="POST">
+    {% csrf_token %}
+    <input type="submit" value="Confirm" name="Confirm">
+</form>

@@ -19,9 +19,10 @@
 # urls.py is routes like routing sa angular
 
 
+
 -how to create an app?
     py manage.py startapp "name"
-
+    -then register mo to sa settings.py INSTALLED_APPS
 -how to add data? 
     access py manage.py shell command
 
@@ -37,3 +38,7 @@
 -how to create an admin area?
     py manage.py createsuperuser
     access it using <domain>/admin
+
+-how to add your models sa admin area?
+    go to admin.py 
+    admin.site.register(Name Of The Class Model)

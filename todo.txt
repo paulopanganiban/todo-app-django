@@ -1,0 +1,4 @@
+>>> finish this todo app then fucking aralin mo yung django admin
+>>> then make some shit dawg :)
+>>> tas heroku deployment ;) 
+>>> you can do it
