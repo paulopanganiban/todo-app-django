@@ -1,0 +1,39 @@
+-setup a virtual env for each project. not global installation
+    "pip install pipenv"
+-create a virtual environment
+    "pipenv shell"
+    why?
+        -lahat ng packages natin ilalagay sa pipenv aka virtual environment (Pipfile)
+-pag mag install tayong packages, pipenv ang gagamitin. not "pip"/ pip is for global
+-django SQLite
+
+-django-admin startproject "name" // overall website
+-apps ay multiple apps sa isang project :)
+
+-practice adding sa git.
+-django
+
+# manage.py file is used to run the server, create migrations
+# settings.py dito mga base directory, secret key for production, installed apps, DATABASE settings
+# middleware ay glue sa mga existing apps. 
+# urls.py is routes like routing sa angular
+
+
+-how to create an app?
+    py manage.py startapp "name"
+
+-how to add data? 
+    access py manage.py shell command
+
+-how to apply migrations?
+    #py manage.py migrate
+
+-how to create a database?
+    #py manage.py makemigrations "name nung app" in this app, its polls
+
+-how to access the shell?
+    #py manage.py shell
+
+-how to create an admin area?
+    py manage.py createsuperuser
+    access it using <domain>/admin
